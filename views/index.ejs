@@ -1,0 +1,182 @@
+<% include partials/navegations.ejs %>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    </head>
+  <body>
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('https://estaticos.qdq.com/swdata/home_photos/374/374541978/9d63820535c845b296ca9e418f1b5f27.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4">Productos de Electricidad </h3>
+          <p class="lead">Con los diverso productos de electricidad</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('http://www.cerc-ug.org/pic/b/144/1445257_wallpaper-construccion.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4">Herramientas de Construccion</h3>
+          <p class="lead">Diversos productos de construccion</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://estaticos.qdq.com/swdata/home_photos/446/446062714/8df82156c5fd402f982f147f159f3a53.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4">Herramienta de Fontanería</h3>
+          <p class="lead">Diversos productos para la fonteneria</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
+</header>
+<br>
+
+<h1 id="titulo">Productos</h1>
+<div class="container">
+  
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators mb-0 pb-0">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner no-padding my-5">
+    <div class="carousel-item active">
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <a href="#" onclick=abc(this) class="slider_info">
+          <img class="img-fluid card-img-top" src="https://cdn.shopify.com/s/files/1/2372/0829/products/MAYOLICA_axel_20181108094624_300x300.jpg?v=1541672686">
+          
+        </a>
+        <p>Las ceramicas ofrece muchas posibilidades para renovar tu interior y exterior de su hogar dandole un buen acabado.</p>
+
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <a href="#" onclick=abc(this) class="slider_info">
+          <img class="img-fluid card-img-top rounded-bottom" src="https://fierromec.com.ar/wp/wp-content/uploads/2017/12/hierro-construccion-300x300.jpg">
+          
+        </a>
+        <p>Permiten una alta adherencia con el concreto utilizados como refuerzo en elemento de concreto armado.</p>
+
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <a href="#" onclick=abc(this) class="slider_info">
+          <img class="img-fluid card-img-top rounded-bottom" src="http://www.galvanizedsteeltube.com/uploads/201811069/small/small-outer-diameter-seamless-steel-tube50418543904.jpg">
+          
+        </a>
+        <p>
+        El tubo es utilizado en las instalaciones domésticas, debido principalmente a la variedad de accesorios del sistema.
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <a href="#" onclick=abc(this) class="slider_info">
+          <img class="img-fluid card-img-top" src="http://via.placeholder.com/300x300">
+          <div class="card-img-overlay t_img">
+            <span class="float-left text-uppercase">article</span>
+            <span class="float-right text-uppercase">2345 views</span>
+          </div>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt quam obcaecati maiores atque labore fugiat tenetur tempore veritatis temporibus!</p>
+
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <a href="#" onclick=abc(this) class="slider_info">
+          <img class="img-fluid card-img-top" src="http://via.placeholder.com/300x300">
+          <div class="card-img-overlay t_img">
+            <span class="float-left text-uppercase">article</span>
+            <span class="float-right text-uppercase">2345 views</span>
+          </div>
+        </a>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt quam obcaecati maiores atque labore fugiat tenetur tempore veritatis temporibus!
+        </p>
+
+      </div>
+      <div class="col-xs-4 col-sm-4 col-md-4">
+        <a href="#" onclick=abc(this) class="slider_info">
+          <img class="img-fluid card-img-top" src="http://via.placeholder.com/300x300">
+          <div class="card-img-overlay t_img">
+            <span class="float-left text-uppercase">article</span>
+            <span class="float-right text-uppercase">2345 views</span>
+          </div>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt quam obcaecati maiores atque labore fugiat tenetur tempore veritatis temporibus!</p>
+
+      </div>
+    </div>
+    
+    
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+     <span class="carousel-control-prev-icon sp"></span>
+                </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon sp"></span>
+                </a>
+</div>
+</div>
+<!-- -->
+<div class="container section">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>
+                        Highly Skilled Volunteers
+                    </h3>
+                    <p>
+                        Through its program, TopVolunteer™, GetLance partners with leading nonprofits and NGOs around the world who need high-skilled talent for their volunteer initiatives. Members of the GetLance network are encouraged to offer their skills and experience to these projects, whether to solve a timely problem or to contribute on an ongoing basis.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://preview.ibb.co/erdq8p/Employee-1.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://preview.ibb.co/cu76g9/Employee-2.jpg" alt=""/>
+                </div>
+                <div class="col-md-6">
+                    <h3>
+                        Cutting-Edge Skill Development
+                    </h3>
+                    <p>
+                       GetLance Academy hosts regular, rigorous learning sessions for the most in-demand skills. By presenting our elite, experienced network with ongoing opportunities to update and elevate their portfolios, we are able to solve pressing talent shortages while ensuring success for dedicated participants.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+  </body>
+</html>
+<% include partials/footer.ejs %>
+
+<style>
+
+</style>
